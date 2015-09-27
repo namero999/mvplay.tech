@@ -1,0 +1,6 @@
+.git/*
+.idea/*
+.s3ignore
+.gitignore
+s3sync.sh
+ssl_mvplay.tech.rar
