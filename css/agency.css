@@ -4,29 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-blink, .blink {
-    -webkit-animation: blink 1s step-end infinite;
-    -moz-animation: blink 1s step-end infinite;
-    -o-animation: blink 1s step-end infinite;
-    animation: blink 1s step-end infinite;
-}
-
-@-webkit-keyframes blink {
-    67% { opacity: 0 }
-}
-
-@-moz-keyframes blink {
-    67% { opacity: 0 }
-}
-
-@-o-keyframes blink {
-    67% { opacity: 0 }
-}
-
-@keyframes blink {
-    67% { opacity: 0 }
-}
-
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -288,7 +265,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-bg1.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -888,3 +865,27 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
+/*
+blink, .blink {
+    -webkit-animation: blink 1s step-end infinite;
+    -moz-animation: blink 1s step-end infinite;
+    -o-animation: blink 1s step-end infinite;
+    animation: blink 1s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+    67% { opacity: 0 }
+}
+
+@-moz-keyframes blink {
+    67% { opacity: 0 }
+}
+
+@-o-keyframes blink {
+    67% { opacity: 0 }
+}
+
+@keyframes blink {
+    67% { opacity: 0 }
+}*/
